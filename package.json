@@ -1,0 +1,40 @@
+{
+  "name": "@8pattern/jcommand",
+  "version": "0.1.0",
+  "description": "a command-line helper for Node.js",
+  "scripts": {
+    "dev": "rollup -c -w --environment NODE_ENV:development",
+    "build": "rollup -c --environment NODE_ENV:production",
+    "test": "jest"
+  },
+  "keywords": [
+    "commond-line"
+  ],
+  "author": "8th-pattern",
+  "license": "MIT",
+  "main": "./dist/jcommand.js",
+  "types": "./src",
+  "devDependencies": {
+    "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
+    "@babel/preset-typescript": "^7.6.0",
+    "@types/jest": "^24.0.18",
+    "@types/node": "^12.12.5",
+    "babel-loader": "^8.0.6",
+    "jest": "^24.9.0",
+    "jest-cli": "^24.9.0",
+    "rollup": "^1.26.3",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-terser": "^5.1.2",
+    "rollup-plugin-typescript2": "^0.24.3",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.6.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/8th-pattern/jCommand.git"
+  },
+  "bugs": {
+    "url": "https://github.com/8th-pattern/jCommand/issues"
+  },
+  "homepage": "https://github.com/8th-pattern/jCommand#readme"
+}
